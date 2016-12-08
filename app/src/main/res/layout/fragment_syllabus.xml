@@ -1,0 +1,344 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="#a9c5ac">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="layout.Syllabus"
+    android:id="@+id/Syllabus"
+    android:orientation="vertical"
+   >
+
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#00897B"
+            android:layout_marginTop="5dp"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mscit Part_1 Syllabus"
+                android:textSize="25dp"
+                android:textColor="#000000"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="40dp"
+
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="15dp"
+            >
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Syllabus"
+                android:id="@+id/btn_part_one_link"
+                android:textColor="#000000"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/image_corner"
+                android:layout_marginLeft="5dp"
+                />
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="DM_QB"
+                android:id="@+id/btn_dm"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/image_corner"
+                android:textColor="#000000"
+                android:layout_marginLeft="10dp"/>
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="DS_QB"
+                android:id="@+id/btn_ds"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/image_corner"
+                android:textColor="#000000"
+                android:layout_marginLeft="10dp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="DAT_QB"
+                    android:id="@+id/btn_dat"
+                    android:textColor="#000000"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/image_corner"
+                    android:layout_marginLeft="5dp"
+                    />
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="ST_QB"
+                    android:id="@+id/btn_st"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/image_corner"
+                    android:textColor="#000000"
+                    android:layout_marginLeft="10dp"/>
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="MC_QB"
+                    android:id="@+id/btn_mc"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/image_corner"
+                    android:textColor="#000000"
+                    android:layout_marginLeft="10dp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="CC_QB"
+                    android:id="@+id/btn_cc"
+                    android:textColor="#000000"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/image_corner"
+                    android:layout_marginLeft="5dp"
+                    />
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="ACN_QB"
+                    android:id="@+id/btn_acn"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/image_corner"
+                    android:textColor="#000000"
+                    android:layout_marginLeft="10dp"/>
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="ADBMS_QB"
+                    android:id="@+id/btn_adbms"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/image_corner"
+                    android:textColor="#000000"
+                    android:layout_marginLeft="10dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#00897B"
+            android:layout_marginTop="5dp"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mscit Part_2 Syllabus"
+                android:textSize="25dp"
+                android:textColor="#000000"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="40dp"
+
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="15dp"
+            >
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Syllabus"
+                android:id="@+id/btn_part_two_link"
+                android:textColor="#000000"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/image_corner"
+                android:layout_marginLeft="5dp"
+                />
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="ES_QB"
+                android:id="@+id/btn_es"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/image_corner"
+                android:textColor="#000000"
+                android:layout_marginLeft="10dp"/>
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="EH_QB"
+                android:id="@+id/btn_eh"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/image_corner"
+                android:textColor="#000000"
+                android:layout_marginLeft="10dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="ISM_QB"
+                    android:id="@+id/btn_ism"
+                    android:textColor="#000000"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/image_corner"
+                    android:layout_marginLeft="5dp"
+                    />
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="VR_QB"
+                    android:id="@+id/btn_vr"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/image_corner"
+                    android:textColor="#000000"
+                    android:layout_marginLeft="10dp"/>
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="AI_QB"
+                    android:id="@+id/btn_ai"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/image_corner"
+                    android:textColor="#000000"
+                    android:layout_marginLeft="10dp"/>
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+               <Button
+                  android:layout_width="100dp"
+                  android:layout_height="wrap_content"
+                  android:text="CF_QB"
+                  android:id="@+id/btn_cf"
+                  android:textColor="#000000"
+                  android:layout_marginBottom="20dp"
+                  android:background="@drawable/image_corner"
+                  android:layout_marginLeft="5dp"
+                  />
+              <Button
+                  android:layout_width="100dp"
+                  android:layout_height="wrap_content"
+                  android:text="ITIM_QB"
+                  android:id="@+id/btn_itim"
+                  android:layout_marginBottom="20dp"
+                  android:background="@drawable/image_corner"
+                  android:textColor="#000000"
+                  android:layout_marginLeft="10dp"/>
+              <Button
+                  android:layout_width="100dp"
+                  android:layout_height="wrap_content"
+                  android:text="CM_QB"
+                  android:id="@+id/btn_cm"
+                  android:layout_marginBottom="20dp"
+                  android:background="@drawable/image_corner"
+                  android:textColor="#000000"
+                  android:layout_marginLeft="10dp"/>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#00897B">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mscit cources and results Details"
+                android:textSize="22dp"
+                android:textColor="#000000"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="20dp"
+
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Result information"
+                android:id="@+id/btn_result_link"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/image_corner"
+                android:textColor="#000000"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="20dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>

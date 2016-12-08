@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Home"
+            android:icon="@drawable/home1"
+            android:title="Home" />
+        <item
+            android:id="@+id/Faculties"
+            android:icon="@drawable/faculties"
+            android:title="Faculties" />
+
+        <item
+            android:id="@+id/college_Events"
+            android:icon="@drawable/event_image"
+            android:title="Colleges Events" />
+        <item
+
+        android:id="@+id/About"
+        android:icon="@drawable/about_image"
+        android:title="About" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/feedback"
+                android:icon="@drawable/feed1_image"
+                android:title="FeedBack" />
+        </menu>
+    </item>
+
+</menu>

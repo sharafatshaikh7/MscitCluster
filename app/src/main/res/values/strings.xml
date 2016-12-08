@@ -1,0 +1,115 @@
+<resources>
+    <string name="app_name">Msc(it) Cluster</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="colorBackground">colorBackground</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Home_Page">Home_Page</string>
+    <string name="About_Page">About_Page</string>
+    <string name="title_activity_test">test</string>
+
+
+    <!-- for a faculties Details-->
+
+    <string-array name="fac_heading">
+        <item>
+            Mr. Rajendar Patel
+        </item>
+        <item>
+            Mr. Hiren Dand
+        </item>
+        <item>
+            Mrs. Pornima
+        </item>
+    </string-array>
+
+    <string-array name="patel">
+        <item>
+            Mr. Rajendar Patel \n Designation:- Asst Prof \n College:- S.K. Somaiya
+        </item>
+    </string-array>
+    <string-array name="hiren">
+        <item>
+             Mr. Hiren Dand \n Designation:- Asst Prof \n College:- MCC College
+        </item>
+    </string-array>
+    <string-array name="pornima">
+        <item>
+             Mrs. Pornima \n Designation:- Asst Prof \n College:- Kelkar
+        </item>
+    </string-array>
+
+
+    <!--for a College Details -->
+    <string-array name="header_title">
+        <item>\t S.K. Somaiya College</item>
+        <item>\t K.J. Somaiya College</item>
+        <item>\t MCC College</item>
+        <item>\t Kelkar College</item>
+        <item>\t Birla College</item>
+        <item>\t Vikas College</item>
+        <item>\t Bandorkar College</item>
+    </string-array>
+
+    <string-array name="sk_info">
+    <item>INTRODUCTION
+        \n
+        \t
+Somaiya Vidyavihar is well renowned for its vast and lush green campus housing 34 institutions imparting academic excellence in fields as varied as medical, engineering, commerce, Sanskrit, Buddhism et al. Somaiya qualifications have acquired a brand name world over. For last 50 years the Somaiya educational group has created a glorious record of providing ‘Value Based Quality Education’
+The College is one of the few young institutions of Somaiya Vidyavihar campus which has, within a very short span established a prestigious name in the field of education. The college made a modest beginning in the year 1995 with 300 students offering just two educational streams. Today it proudly boasts of educating more than 5500 students every year and offering 15 diverse Under-Graduate, Post-Graduate courses. Inspired by the vision of our founding father we endeavour to impart qualitative value based education. Over the years we have strived to blend conventional education with contemporary courses so as to equip our students with knowledge and skills required for gainful employment. We offer, to our eligible students a basket of career oriented courses to choose from, as per their likes and interests. The teaching learning process at our institute imbibes a very glocal approach i.e. while using the traditional personal touch method the faculty also uses the latest information communication technology to make the learning process highly effective.\n
+        \n
+    https://www.somaiya.edu
+    \n</item>
+    </string-array>
+    <string-array name="kj_info">
+        <item> INTRODUCTION
+            \n
+            \t
+Somaiya Vidyavihar is well renowned for its vast and lush green campus housing 34 institutions imparting academic excellence in fields as varied as medical, engineering, commerce, Sanskrit, Buddhism et al. Somaiya qualifications have acquired a brand name world over. For last 50 years the Somaiya educational group has created a glorious record of providing ‘Value Based Quality Education’
+The College is one of the few young institutions of Somaiya Vidyavihar campus which has, within a very short span established a prestigious name in the field of education. The college made a modest beginning in the year 1995 with 300 students offering just two educational streams. Today it proudly boasts of educating more than 5500 students every year and offering 15 diverse Under-Graduate, Post-Graduate courses. Inspired by the vision of our founding father we endeavour to impart qualitative value based education. Over the years we have strived to blend conventional education with contemporary courses so as to equip our students with knowledge and skills required for gainful employment. We offer, to our eligible students a basket of career oriented courses to choose from, as per their likes and interests. The teaching learning process at our institute imbibes a very glocal approach i.e. while using the traditional personal touch method the faculty also uses the latest information communication technology to make the learning process highly effective.\n
+        \n
+    https://www.somaiya.edu \n
+        </item>
+    </string-array>
+    <string-array name="mcc_info">
+        <item>INTRODUCTION
+            \n
+            \t
+The father figure of Lokmanya Tilak is revered and the ideals that he stood for have inspired the founders of Parle Tilak Vidyalaya Association. Enlightenment, Social Progress, Patriotism and Self Esteem through education, the  virtues that Tilak’s life taught us and his stress on education as a means to make us fit for service and sacrifice for our motherland became the goals for these founders. With the changing times and the needs of society the shift of emphasis on the type of education has taken place but the original goals have been the guiding lights.Over20,000students from pre-primary to postgraduate classes benefit from the educational institutes which are well- equipped with modern educational facilities and known for their highq uality of education coupled with a cultural ethos that combines the traditional and the modern facets.(“There is nothing in this world as sacrosanct as knowledge”). \n
+   \n
+    http://mccmulund.ac.in \n</item>
+    </string-array>
+    <string-array name="kelkar_info">
+        <item>INTRODUCTION\n\t
+             College With Potential for Excellence First Recepient of Best College Awarded.
+             "First affiliated college in maharashtra Reaccredited by NAAC with A Grade In third cycle." \n \n
+    www.vazecollege.net \n</item>
+    </string-array>
+    <string-array name="birla_info">
+        <item>
+            \tINTRODUCTION
+        Birla college was established in 1972 through the dedicated efforts of Kalyan Charity Trust and Kalyan Citizens Education Society. Kalyan Citizens Education Society was founded in 1971 through the efforts of prominent citizens of Kalyan and received the benediction of the Late Shri G D Birla. The college continues to receive the blessings of Syt  Basant Kumar Birla - Chairman, B. K. Birla Group of Companies and Dr. (Smt.) Sarala Birla. \n
+        Birla college of Arts Science and Commerce an affiliate of the University of Mumbai is a multifaculty institution of higher education that has more than 8,500 students on its rolls. pursuing studies in several undergraduate and post-graduate courses. In addition the college imparts instruction to students pursuing studies through Yashwantrao Chavan Maharashtra Open University, Nasik. The college also conducts contact sessions for students pursuing education through the Institute of Distance Education, University of Mumbai.\n \n
+        www.birlacollege.org \n
+        </item>
+    </string-array>
+
+    <string-array name="vikas_info">
+        <item>\t
+            Address: Aurobindo, Sarvoday Buddh Vihar Marg, Vidyanagar, Vidyavihar, Mumbai, Maharashtra \n
+    https://www.somaiya.edu
+        </item>
+    </string-array>
+    <string-array name="bandorkar_info">
+        <item>\t
+            Address: Aurobindo, Sarvoday Buddh Vihar Marg, Vidyanagar, Vidyavihar, Mumbai, Maharashtra \n
+    http://www.vpmthane.org/
+        </item>
+    </string-array>
+
+</resources>

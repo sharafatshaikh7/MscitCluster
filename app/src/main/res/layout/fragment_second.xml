@@ -1,0 +1,126 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mscitcluster.com.mscitcluster.second"
+    android:orientation="vertical"
+    android:background="#00897B"
+    android:id="@+id/secong_fragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="128dp"
+                android:id="@+id/page_second_profile_pic"
+                android:layout_margin="5dp"
+                android:layout_gravity="center"
+                android:background="#aaa"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_page_second_profile_choser"
+                android:text="Select Profile Picture"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:background="@drawable/shape"
+            android:layout_marginTop="30dp">
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:id="@+id/spinner_college"
+                android:spinnerMode="dropdown"
+                android:layout_marginLeft="5dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:background="@drawable/shape"
+            android:layout_marginTop="30dp">
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:id="@+id/spinner_part"
+                android:spinnerMode="dropdown"
+                android:layout_marginLeft="5dp"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_page_second_next"
+            android:text="Next"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="32dp"
+        android:layout_gravity="center_horizontal"
+        >
+
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/start_second_radio_1"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#000000"
+                android:clickable="false"
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/start_second_radio_2"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#000000"
+                android:checked="true"
+
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/start_second_radio_3"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#000000"
+                android:clickable="false"
+                />
+
+        </RadioGroup>
+    </LinearLayout>
+
+</LinearLayout>

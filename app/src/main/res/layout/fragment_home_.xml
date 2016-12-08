@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="layout.Home_Fragment"
+    android:id="@+id/Home"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/homerelative_layout"
+            android:clickable="true">
+
+            <include
+                layout="@layout/activity_photo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="2dp"
+            android:paddingTop="2dp"
+            >
+            <ExpandableListView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/expandableListView"
+                android:groupIndicator="@drawable/setting_selectore"
+                android:headerDividersEnabled="true"
+                android:dividerHeight="1dp"
+                />
+        </RelativeLayout>
+
+    </LinearLayout>
+</RelativeLayout>
+
+
+
